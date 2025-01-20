@@ -1,0 +1,36 @@
+{
+    "stations": [
+        {
+            "id": 1,
+            "name": "Reykjavík"
+        },
+        {
+            "id": 3471,
+            "name": "Akureyri"
+        },
+        {
+            "id": 571,
+            "name": "Egilsstaðir"
+        },
+        {
+            "id": 178,
+            "name": "Stykkishólmur"
+        },
+        {
+            "id": 6300,
+            "name": "Selfoss"
+        },
+        {
+            "id": 2642,
+            "name": "Ísafjörður"
+        },
+        {
+            "id": 3433,
+            "name": "Sauðarkrókur"
+        },
+        {
+            "id": 31363,
+            "name": "Reykjanesbraut"
+        }
+    ]
+}
