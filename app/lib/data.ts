@@ -1,7 +1,7 @@
 import axios from 'axios';
 import fs from 'fs/promises'; 
 
-// Fetches the first 8 forecasts for the given station and returns them as Forecast[]
+// Fetches the first 15 forecasts for the given station and returns them as Forecast[]
 export async function fetchForecastsByStation(id: number) {
     var parseString = require('xml2js').parseStringPromise;
     try{

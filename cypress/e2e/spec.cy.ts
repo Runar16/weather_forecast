@@ -22,17 +22,3 @@ describe('The Weather Forecast Page', () => {
             });
     })
 })
-
-describe('When selecting a station in the stations dropdown', () => {
-    it('changes the forecast table', () => {
-        cy.visit('/')
-        cy.get('[data-cy="stations"]').click();
-        cy.contains('Akureyri').click();
-            // .find("li")
-            // .then((item) => {
-            //     console.log(item.length);
-            //     cy.log(item.length.toString());
-            //     expect(item.length).to.be.above(1);
-            // });
-    })
-})

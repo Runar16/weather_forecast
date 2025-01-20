@@ -47,11 +47,11 @@ The app/page.tsx is run server side while the components found in app/ui are run
 
 I used Nextjs since it seemed relatively quick and simple to use.
 
-The biggest issue I encountered was since you can only get the weather forecast by station id I needed a way to get all the the stations and their ID. Since the vedur API doesn't have an endpoint get the stations ID I started to look at ways to scrape it from their website, but the more I thought about it it would be better to just allow selecting some of the most common ones to avoid cluttering the UI with alot of weather stations that are rarely used. So I just picked one station for each [part of the country](https://en.wikipedia.org/wiki/Regions_of_Iceland) and manually created the public/stations.json file. This obviously is not an ideal solution since the stations could change and if that weere to happen I would need to manually update the stations.json.
+The biggest issue I encountered was since you can only get the weather forecast by station id I needed a way to get all the stations and their ID. Since the vedur API doesn't have an endpoint get the stations ID I started to look at ways to scrape it from their website, but the more I thought about it it would be better to just allow selecting some of the most common ones to avoid cluttering the UI with alot of weather stations that are rarely used. So I just picked one station for each [part of the country](https://en.wikipedia.org/wiki/Regions_of_Iceland) and manually created the public/stations.json file. This obviously is not an ideal solution since the stations could change and if that were to happen I would need to manually update the stations.json.
 
 I used the URL to access what weather station was selected like it is done in the [NextJS tutorial](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination).
 
-I made the site in english since the project description i recieved was in english.
+I made the site in english since the project description I received was in english.
 
 ## ➤ Known issues/bugs
 
